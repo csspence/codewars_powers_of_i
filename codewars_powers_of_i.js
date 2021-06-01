@@ -5,6 +5,6 @@ Your Task
 Complete the function pofi that returns iii to the power of a given non-negative integer in its simplest form, as a string (answer may contain iii).
 */
 
-function pofi(n){
-  return 'i';
+const pofi = (n) => {
+  return (Math.pow(i, n)).toString();
 }
